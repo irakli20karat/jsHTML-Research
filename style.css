@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 100px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.section {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.text {
+    margin: 5px 0;
+}
+
+.highlight {
+    background: yellow;
+}
+
+#main-list {
+    margin-left: 20px;
+}
+
+#content-box {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#style-box {
+    padding: 10px;
+    border: 1px solid #999;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.active {
+    border: 2px solid green !important;
+}
+
+.visible {
+    opacity: 1;
+}
+
+.ready {
+    background: lightgreen;
+}
+
+.theme-light {
+    background: white;
+    color: black;
+}
+
+.theme-dark {
+    background: #333;
+    color: white;
+}
+
+.valid {
+    border-color: green;
+}
+
+.invalid {
+    border-color: red;
+}
+
+.touched {
+    background: #f0f0f0;
+}
+
+#class-demo {
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    transition: all 0.2s ease;
+}

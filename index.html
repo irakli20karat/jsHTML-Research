@@ -57,6 +57,202 @@
         <button id="toggle-btn">Toggle Classes</button>
     </div>
 
+    <!-- Section 7: Event Listeners -->
+    <div class="section">
+        <h2>Section 7: Event Listeners</h2>
+
+        <div class="subsection">
+            <h3>Basic Click</h3>
+            <button id="click-btn">Click Me!</button>
+        </div>
+
+        <div class="subsection">
+            <h3>Event Object</h3>
+            <button id="event-test-btn">Test Event Properties</button>
+        </div>
+
+        <div class="subsection">
+            <h3>Multiple Listeners</h3>
+            <button id="multi-btn">Multiple Handlers</button>
+        </div>
+
+        <div class="subsection">
+            <h3>Remove Listener</h3>
+            <button id="remove-btn">Click 3 Times</button>
+        </div>
+    </div>
+
+    <!-- Section 8: Mouse Events -->
+    <div class="section">
+        <h2>Section 8: Mouse Events</h2>
+        <div id="mouse-box" class="interactive-box">
+            Hover and move mouse here
+        </div>
+    </div>
+
+    <!-- Section 9: Keyboard Events -->
+    <div class="section">
+        <h2>Section 9: Keyboard Events</h2>
+        <input type="text" id="key-input" placeholder="Type here to see key events">
+    </div>
+
+    <!-- Section 10: Input Events -->
+    <div class="section">
+        <h2>Section 10: Input Events</h2>
+        <input type="text" id="text-input" placeholder="Type to count characters">
+        <p>Character count: <span id="char-count">0</span></p>
+    </div>
+
+    <!-- Section 11: preventDefault -->
+    <div class="section">
+        <h2>Section 11: preventDefault</h2>
+
+        <form id="prevent-form">
+            <input type="text" name="username" placeholder="Username" required>
+            <button type="submit">Submit (Prevented)</button>
+        </form>
+
+        <a href="https://example.com" id="prevent-link">Click me (prevented navigation)</a>
+    </div>
+
+    <!-- Section 12: Event Delegation -->
+    <div class="section">
+        <h2>Section 12: Event Delegation</h2>
+        <ul id="delegate-list" class="task-list">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <button id="add-item-btn">Add Item</button>
+    </div>
+
+    <!-- Section 13: Event Options -->
+    <div class="section">
+        <h2>Section 13: Event Options</h2>
+
+        <div class="subsection">
+            <h3>Once Option</h3>
+            <button id="options-btn">Click Me (once fires once)</button>
+        </div>
+
+        <div class="subsection">
+            <h3>AbortController</h3>
+            <button id="abort-btn">Click Me</button>
+            <button id="abort-toggle">Disable Above Button's Listener</button>
+        </div>
+    </div>
+
+    <!-- Section 14: Event Patterns -->
+    <div class="section">
+        <h2>Section 14: Event Patterns</h2>
+
+        <div class="subsection">
+            <h3>Debounce (Search)</h3>
+            <input type="text" id="search-input" placeholder="Type to search (debounced)">
+        </div>
+
+        <div class="subsection">
+            <h3>Throttle (Scroll)</h3>
+            <div id="scroll-area" class="scroll-box">
+                <p>Scroll me to see throttled events</p>
+                <p>Lorem ipsum dolor sit amet</p>
+                <p>Consectetur adipiscing elit</p>
+                <p>Sed do eiusmod tempor</p>
+                <p>Incididunt ut labore</p>
+                <p>Et dolore magna aliqua</p>
+                <p>Ut enim ad minim veniam</p>
+                <p>Quis nostrud exercitation</p>
+                <p>Ullamco laboris nisi</p>
+            </div>
+        </div>
+
+        <div class="subsection">
+            <h3>Click Outside to Close</h3>
+            <button id="dropdown-btn">Toggle Dropdown</button>
+            <div id="dropdown" class="dropdown-content">
+                <p>Dropdown content</p>
+                <p>Click outside to close</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 15: setTimeout -->
+    <div class="section">
+        <h2>Section 15: setTimeout</h2>
+
+        <div class="subsection">
+            <h3>Delayed Action with Cancel</h3>
+            <button id="delayed-action-btn">Start Action (3s)</button>
+            <button id="cancel-btn">Cancel</button>
+            <p>Countdown: <span id="countdown">-</span></p>
+        </div>
+    </div>
+
+    <!-- Section 16: setInterval -->
+    <div class="section">
+        <h2>Section 16: setInterval</h2>
+
+        <div class="subsection">
+            <h3>Live Clock</h3>
+            <div id="clock" class="clock-display">--:--:--</div>
+        </div>
+
+        <div class="subsection">
+            <h3>Progress Bar</h3>
+            <button id="start-progress">Start Progress</button>
+            <div class="progress-container">
+                <div id="progress-bar" class="progress-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 17: Animation -->
+    <div class="section">
+        <h2>Section 17: Animation with Timers</h2>
+
+        <div class="subsection">
+            <h3>Position Animation</h3>
+            <button id="animate-btn">Animate</button>
+            <div class="anim-container">
+                <div id="anim-box" class="anim-box">Box</div>
+            </div>
+        </div>
+
+        <div class="subsection">
+            <h3>Fade Animation</h3>
+            <button id="fade-btn">Fade In</button>
+            <div id="fade-box" class="fade-box">Fade me!</div>
+        </div>
+    </div>
+
+    <!-- Section 18: Practical Timer Examples -->
+    <div class="section">
+        <h2>Section 18: Practical Timer Examples</h2>
+
+        <div class="subsection">
+            <h3>Auto-save</h3>
+            <input type="text" id="autosave-input" placeholder="Type... auto-saves after 1s">
+            <p id="save-status"></p>
+        </div>
+
+        <div class="subsection">
+            <h3>Notification</h3>
+            <button id="notify-btn">Show Notification</button>
+            <div id="notification" class="notification">Notification text</div>
+        </div>
+
+        <div class="subsection">
+            <h3>Rate Limiting</h3>
+            <button id="rate-limit-btn">Click (2s cooldown)</button>
+        </div>
+
+        <div class="subsection">
+            <h3>Countdown Timer</h3>
+            <button id="countdown-btn">Start 10s Countdown</button>
+            <p id="countdown-text">-</p>
+        </div>
+    </div>
+
     <script src="index.js"></script>
 </body>
 
